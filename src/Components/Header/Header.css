@@ -1,0 +1,27 @@
+header{
+    margin: 0;
+}
+
+.header-text{
+    padding: 3rem;
+    color: azure;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1rem;
+    background: linear-gradient(to right, rgb(61, 80, 253), rgb(11, 251, 251), rgb(116, 251, 177));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h4{
+    font-weight: 200;
+    font-size: small;
+}
