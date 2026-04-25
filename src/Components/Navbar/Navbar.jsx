@@ -3,7 +3,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
       <nav>
-        <ul className='nav-link'>
+        <ul className="nav-link">
           <li>
             <a href="http://">Home</a>
           </li>
@@ -17,9 +17,13 @@ const Navbar = () => {
             <a href="http://">Portfolio</a>
           </li>
         </ul>
-        <div>
-          <button className="download-btn">Download</button>
-        </div>
+
+        <a
+          href="/Document/Ifti Alam Likhon CV.pdf"
+          download className="download-btn"
+        >
+          Download
+        </a>
       </nav>
     );
 };
