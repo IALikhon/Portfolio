@@ -1,27 +1,51 @@
-header{
-    margin: 0;
+header {
+  margin: 0;
+  background-image: "./assets";
 }
 
-.header-text{
-    padding: 3rem;
-    color: azure;
+#bg-video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
 
-h1{
-    font-size: 4rem;
-    font-weight: bold;
+.header-text {
+  position: relative;
+  z-index: 1;
+  padding: 3rem;
+  color: azure;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h2{
-    font-weight: bold;
-    font-size: 1rem;
-    background: linear-gradient(to right, rgb(61, 80, 253), rgb(11, 251, 251), rgb(116, 251, 177));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-h4{
-    font-weight: 200;
-    font-size: small;
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: linear-gradient(
+    to right,
+    rgb(61, 80, 253),
+    rgb(11, 251, 251),
+    rgb(116, 251, 177)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: small;
 }

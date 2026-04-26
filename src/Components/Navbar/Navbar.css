@@ -1,8 +1,12 @@
 nav {
-  background-color: hsl(250, 84%, 5%);
+  background-color: rgba(12, 9, 48, 0.7);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .nav-link {
   list-style: none;
