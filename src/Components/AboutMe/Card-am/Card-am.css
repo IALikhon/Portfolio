@@ -1,0 +1,28 @@
+.card{
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 15px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    min-width: 20rem;
+    text-align: start;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgba(238, 238, 238, 0.4);
+    .icon{color: rgb(4, 243, 135)}
+}
+
+.icon{
+    color: rgb(21, 255, 255);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: inline-flex;
+}
+
+p{
+    padding: 15px;
+    margin: 1rem;
+}

@@ -8,7 +8,7 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="http://">About Me</a>
+            <a href="aboutme">About Me</a>
           </li>
           <li>
             <a href="http://">Skills</a>
@@ -20,9 +20,10 @@ const Navbar = () => {
 
         <a
           href="/Document/Ifti Alam Likhon CV.pdf"
-          download className="download-btn"
+          download
+          className="download-btn"
         >
-          Download
+          Download CV
         </a>
       </nav>
     );
