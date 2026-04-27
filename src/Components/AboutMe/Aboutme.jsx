@@ -5,7 +5,7 @@ import { Code, Lightbulb, Users, Coffee } from "lucide-react";
 
 const AboutMe = () => {
   return (
-    <div id="aboutme">
+    <div id="about">
       <div>
         <div className="heading">About Me</div>
         <h3>
