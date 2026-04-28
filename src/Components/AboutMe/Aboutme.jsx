@@ -24,7 +24,7 @@ const AboutMe = () => {
           functional, but intuitive and engaging.
           <br />
           <br />
-          I pay close attention to structure, performance, and usability—because
+          I pay close attention to structure, performance, and usability because
           to me, good frontend development is as much about how it feels as how
           it works. My path into tech wasn’t traditional, and that’s what shapes
           how I think today. I started my career in fashion retail, working in

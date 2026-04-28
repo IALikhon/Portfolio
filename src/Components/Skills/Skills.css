@@ -1,0 +1,21 @@
+#skills{
+    display: flex;
+    justify-self: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+
+.skill-card{
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-bottom: 10rem;
+    display: inline-flex;
+    padding: 1rem;
+
+}
+
+img{
+    width: 3rem;
+}

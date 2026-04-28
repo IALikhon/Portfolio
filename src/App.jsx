@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import AboutMe from "./Components/AboutMe/Aboutme";
+import Skills from "./Components/Skills/Skills";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     <Navbar />
     <Header />
     <AboutMe />
+    <Skills />
     </>
   )
 };
