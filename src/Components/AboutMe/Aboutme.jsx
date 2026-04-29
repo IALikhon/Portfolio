@@ -14,12 +14,12 @@ const AboutMe = () => {
           With a background in fashion retail and pharmaceuticals, I bring a
           unique mix of user insight, analytical thinking, and real-world
           problem solving. I adapt quickly, learn fast, and thrive in different
-          environments—like a multi-purpose tool, I fit where I’m needed and add
+          environments like a multi-purpose tool, I fit where I’m needed and add
           value where it counts.
         </h3>
         <p>
           I’m a Frontend Developer who enjoys turning ideas into clean,
-          responsive, and user-friendly web experiences. I work with HTML, CSS,
+          responsive, and user friendly web experiences. I work with HTML, CSS,
           JavaScript, and React to build interfaces that are not just
           functional, but intuitive and engaging.
           <br />
@@ -28,7 +28,7 @@ const AboutMe = () => {
           to me, good frontend development is as much about how it feels as how
           it works. My path into tech wasn’t traditional, and that’s what shapes
           how I think today. I started my career in fashion retail, working in
-          fast-paced, customer-focused environments where understanding people
+          fast paced, customer focused environments where understanding people
           was everything. I learned how small details can shape a user’s
           experience, how to read behavior, and how to improve processes to make
           interactions smoother. Without realizing it, I was already thinking in
@@ -48,7 +48,7 @@ const AboutMe = () => {
           writing code. I think about the user behind the screen and the purpose
           behind the product. My goal is to build experiences that are
           thoughtful, efficient, and aligned with real needs. I’m continuously
-          learning, improving, and pushing myself to grow as a developer—one
+          learning, improving, and pushing myself to grow as a developer one
           project at a time.
         </p>
       </div>

@@ -1,0 +1,13 @@
+.skills-card{
+    border: 2px solid white;
+    margin: 0.5rem;
+    border-radius: 30px;
+    padding: 1rem 5rem;
+    width: 10rem;
+    align-content: start;
+    text-align: start;
+}
+
+img{
+    width: 30px;
+}
