@@ -2,12 +2,21 @@
     border: 2px solid white;
     margin: 0.5rem;
     border-radius: 30px;
-    padding: 1rem 5rem;
-    width: 10rem;
+    padding: 2rem;
+    width: 15rem;
     align-content: start;
     text-align: start;
+    display: flex;
+    flex-direction: row;
 }
 
 img{
-    width: 30px;
+    width: 2.5rem;
+    margin-right: 4rem;
+    margin-left: 0;
+}
+
+.skill-name{
+    font-size: 2rem;
+    margin-right: 2rem;
 }

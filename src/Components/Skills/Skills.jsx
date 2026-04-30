@@ -1,15 +1,20 @@
 import "./Skills.css";
 import SkillsCard from "./Skills-Card/Skills-Card";
+import SkillsData from "../../asset/Data/SkillsData";
 
 const Skills = () => {
   return (
-    <div>
-      <div id="skills">Skills</div>
+    <div id="skills">
+      <div className="heading">Skills</div>
       <div className="skills-sec">
+        {/* <SkillsCard id = {id} img={img} skill = {skill} />
         <SkillsCard />
         <SkillsCard />
-        <SkillsCard />
-        <SkillsCard />
+        <SkillsCard /> */}
+
+        {SkillsData.map(({ id, img, skill }) => {
+          return (<SkillsCard key={id} img={img} skill={skill} />);
+        })}
       </div>
     </div>
   );

@@ -1,11 +1,10 @@
 import "./Skills-Card.css";
-import cssIcon from "../../../asset/Pictures/css.png";
 
-const SkillsCard = () => {
+const SkillsCard = ({id, img, skill}) => {
     return (
         <div className="skills-card">
-            <img src={cssIcon} alt="" />
-            <span>CSS</span>
+            <img src={img} alt="" />
+            <div className="skill-name">{skill}</div>
         </div>
     );
 };
