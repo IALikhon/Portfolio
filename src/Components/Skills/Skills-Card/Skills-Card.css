@@ -10,7 +10,12 @@
     flex-direction: row;
 }
 
-img{
+.skills-card:hover{
+    box-shadow: 1px 2px 8px 5px rgba(255, 255, 255, 0.48);
+    border: 3px white;
+}
+
+.skill-img{
     width: 2.5rem;
     margin-right: 4rem;
     margin-left: 0;

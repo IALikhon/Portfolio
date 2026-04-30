@@ -7,14 +7,11 @@ const Skills = () => {
     <div id="skills">
       <div className="heading">Skills</div>
       <div className="skills-sec">
-        {/* <SkillsCard id = {id} img={img} skill = {skill} />
-        <SkillsCard />
-        <SkillsCard />
-        <SkillsCard /> */}
 
         {SkillsData.map(({ id, img, skill }) => {
           return (<SkillsCard key={id} img={img} skill={skill} />);
         })}
+        
       </div>
     </div>
   );

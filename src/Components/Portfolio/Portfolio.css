@@ -1,0 +1,29 @@
+#Portfolio {
+  margin: 10rem;
+}
+
+.header{
+    font-size: 3rem;
+    display: flex;
+    justify-self: center;
+    border-bottom: 2px solid white;
+    margin-bottom: 5rem;
+}
+
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.project-img{
+    width: 20rem;
+}
+
+@media (max-width: 800px) {
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 30rem;
+    }
+}
