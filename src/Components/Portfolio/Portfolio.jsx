@@ -1,31 +1,18 @@
 import "./Portfolio.css";
-// import Project from "../../asset/Projects/ProjectData";
+import ProjectCard from "./ProjectCard/ProjectCard";
+import Project from "../../asset/Projects/ProjectData";
 
 const Portfolio = () => {
-    return (
-      <div id="Portfolio">
-        <div className="header">Portfolio</div>
-        <div className="project-card">
-          <img
-            className="project-img"
-            src="src/asset/Projects/ProjectImg/CambridgeRental.png"
-            alt=""
-          />
-
-          <img
-            className="project-img"
-            src="src/asset/Projects/ProjectImg/CambridgeRental.png"
-            alt=""
-          />
-
-          <img
-            className="project-img"
-            src="src/asset/Projects/ProjectImg/CambridgeRental.png"
-            alt=""
-          />
-        </div>
+  return (
+    <div id="portfolio">
+      <div className="header">Portfolio</div>
+      <div className="project-card">
+        {Project.map(({ img, info }, index) => {
+          return <ProjectCard key={index} img={img} info={info} />;
+        })}
       </div>
-    );
+    </div>
+  );
 };
 
 export default Portfolio;

@@ -1,7 +1,27 @@
-
 const Project = [
   {
-    img: "../../asset/Project/ProjectImg/CambridgeRental.png",
+    img: "src/asset/Projects/ProjectImg/CambridgeRental.png",
+    info: "Cambridge Rental",
+  },
+  {
+    img: "src/asset/Projects/ProjectImg/CambridgeRental.png",
+    info: "Cambridge Rental",
+  },
+  {
+    img: "src/asset/Projects/ProjectImg/CambridgeRental.png",
+    info: "Cambridge Rental",
+  },
+  {
+    img: "src/asset/Projects/ProjectImg/CambridgeRental.png",
+    info: "Cambridge Rental",
+  },
+  {
+    img: "src/asset/Projects/ProjectImg/CambridgeRental.png",
+    info: "Cambridge Rental",
+  },
+  {
+    img: "src/asset/Projects/ProjectImg/CambridgeRental.png",
+    info: "Cambridge Rental",
   },
 ];
 

@@ -1,0 +1,19 @@
+.project {
+  border-bottom: 2px solid white;
+  border-radius: 1rem;
+  gap: 2rem;
+  padding: 0;
+}
+
+.project-img{
+    display: flex;
+    justify-self: start;
+    width: 20rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.project-info{
+    margin: 8px;
+    
+}
