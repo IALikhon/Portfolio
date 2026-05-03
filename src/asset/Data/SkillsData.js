@@ -6,7 +6,7 @@ import seoIcon from "../../asset/Pictures/seo.png";
 import uiuxIcon from "../../asset/Pictures/ui-ux.png";
 
 
-const SkillsData = [
+const skillsData = [
   {
     id: 1,
     img: cssIcon,
@@ -39,4 +39,4 @@ const SkillsData = [
   },
 ];
 
-export default SkillsData;
+export default skillsData;

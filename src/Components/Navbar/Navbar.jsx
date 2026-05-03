@@ -1,23 +1,19 @@
 import "./Navbar.css";
 
 const Navbar = () => {
+  const routes = ["home", "about", "skills", "portfolio", "contact"];
+
   return (
     <nav>
       <ul className="nav-link">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#Portfolio">Portfolio</a>
-        </li>
+        {routes.map((route, index) => {
+          return (
+            <li key={index}>
+              <a href={`#${route}`}>{route}</a>
+            </li>
+          );
+        })}
       </ul>
-
       <a
         href="/Document/Ifti Alam Likhon CV.pdf"
         download
