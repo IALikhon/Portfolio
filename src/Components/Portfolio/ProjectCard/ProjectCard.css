@@ -5,15 +5,16 @@
   background-color: hsl(223, 86%, 8%);
   border-radius: 12px;
   padding: 0;
+  border-bottom: 1px solid white;
 }
 
-.project:hover {
+/* .project:hover {
   background-color: hsl(226, 50%, 15%);
   filter: blur(1px);
   .project-img{
     filter: blur(1px);
   }
-}
+} */
 
 .project-img {
   display: block;
@@ -25,8 +26,6 @@
 
 .project-info {
   margin: 8px;
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
   border-radius: 8px;
   padding: 1rem;
   display: flex;

@@ -21,7 +21,8 @@
   .project-card {
     display: flex;
     flex-direction: column;
+    justify-self: center;
     gap: 2rem;
-    width: 30rem;
+    width: 25rem;
   }
 }
