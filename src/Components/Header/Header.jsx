@@ -1,5 +1,5 @@
 import "./Header.css";
-import starynight from '../../asset/video/starynight.mp4';
+import starynight from "../../asset/video/starynight.mp4";
 
 const Header = () => {
   return (
@@ -16,9 +16,11 @@ const Header = () => {
           <br /> Passionate about clean code, user experience, and bringing
           ideas to life.
         </h4>
-        <video autoPlay muted loop playsInline id="bg-video">
-          <source src={starynight} type="video/mp4" />
-        </video>
+        <div className="video">
+          <video autoPlay muted loop playsInline id="bg-video">
+            <source src={starynight} type="video/mp4" />
+          </video>
+        </div>
       </div>
     </header>
   );
